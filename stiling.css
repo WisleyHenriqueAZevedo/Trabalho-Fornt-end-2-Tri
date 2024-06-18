@@ -1,0 +1,17 @@
+  div{
+    background-color: blue;
+    animation-name: animation;
+    animation-duration: 4s;
+   animation-iteration-count: infinite;
+    width: 100px;
+    height: 100px;
+  }
+  @keyframes animation{
+    0%{
+        background-color: blue;
+    }
+    50%{
+        background-color: red;
+    }
+    100%{background-color: blue;}
+  }
